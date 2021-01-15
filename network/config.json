@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "../network/images/WP_20171021_08_50_57_ProRG.gif",
+    "link": "http://localhost/network/images/WP_20171021_08_50_57_ProRG.gif",
+    "text": "Alexandre Rosa"
+  },
+  "text": {
+    "more": "The regional innovation system represented here results from a investigation for a master's thesis in Political Science at the University of Aveiro entitled - Innovation in Idanha-a-Nova, a social network analysis - by Alexandre Sampaio Rosa, defended in the year from 2021.",
+    "intro": "Representative graph of the <B>regional innovation system in Idanha-a-Nova, Portugal</b>. Its actors and their relationships according to the data collected for the year 2019. The colors represent the geographic levels where each actor operates.",
+    "title": "Regional Innovation System in Idanha-a-Nova, Portugal"
+  },
+  "legend": {
+    "edgeLabel": "Interacts with",
+    "colorLabel": "Geographic Operation: <b>Light Green - Local / Dark Green - Regional / Purple - District / Blue - National / Orange - International</b>",
+    "nodeLabel": "Actors"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "atuacao",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": "Label _cópia"
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#000000",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#fff",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 2.0,
+      "minEdgeSize": 1.0,
+      "minNodeSize": 2,
+      "maxNodeSize": 14
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
